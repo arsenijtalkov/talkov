@@ -1,0 +1,3 @@
+ with alive_bar(len(wallets)) as bar:
+        for wallet in wallets:
+            result = queue_results.get()
